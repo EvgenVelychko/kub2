@@ -43,7 +43,11 @@ type Instance struct {
 	Error      string
 }
 
+<<<<<<< HEAD
 const version string = "1.0.0"
+=======
+const version string = "3.0.0"
+>>>>>>> canary
 
 func main() {
 	showversion := flag.Bool("version", false, "display version")
