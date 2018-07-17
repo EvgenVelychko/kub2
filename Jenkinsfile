@@ -1,5 +1,9 @@
 node {
+<<<<<<< HEAD
   def project = 'moonlit-mesh-210019'
+=======
+  def project = 'model-craft'
+>>>>>>> canary
   def appName = 'gceme'
   def feSvcName = "${appName}-frontend"
   def imageTag = "gcr.io/${project}/${appName}:${env.BRANCH_NAME}.${env.BUILD_NUMBER}"
