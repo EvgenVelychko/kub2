@@ -43,7 +43,7 @@ type Instance struct {
 	Error      string
 }
 
-const version string = "5.0.1"
+const version string = "5.0.2"
 
 
 func main() {
